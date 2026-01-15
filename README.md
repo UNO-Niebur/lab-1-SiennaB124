@@ -1,36 +1,58 @@
-# Lab 1 - CIST 1600
+# Lab 1 – CIST1600 Practical Scripting
+## Purpose of This Lab
 
-## Overview
-- Look at different ways of creating/running a Python program.
-- Create a GitHub account.
-- Open GitHub Classroom and GitHub Code Spaces
+This lab introduces you to:
+- running Python programs
+- using `input()` and `print()`
+- understanding how users interact with scripts
+- practicing basic testing and debugging
+
+You will complete **two Python programs** in this repository.
+
+Detailed explanations, examples, and workflow instructions are provided in **Canvas**.  
+This README focuses only on what to do **inside this repository**.
 
 ---
-### Text Editor
-- How to configure Python on your home computers
-  - Download Python
-    - [python.org](https://www.python.org/)
-  - Download a Text Editor
-    - [Atom.io](https://atom.io/)
-    - [Notepad++](https://notepad-plus-plus.org/downloads/)
-    - [Sublime Text](https://www.sublimetext.com/)
-  - In a command-line interface:
-    - Navigate to the folder with your python file.
-    - Use command **python file.py** where ***file*** is changed for the name of your file.
-    - Depending on configuration, the command may be **python3 file.py**
 
-### IDLE Editor
-- IDE that comes with Python when you download
-- Opens to an interactive shell
-- You can run scripts by from the **Run** menu and choosing **Run Script**
-  - Alternatively you can type **F5** on your keyboard
+## Files in This Repository
 
-## Instructions
-- Log into GitHub and Canvas
-- Accept the assignment from GitHub Classroom in Canvas
-- Open in GitHub Code Spaces
+You will work with **both** of the following files:
 
-Now that we have the files in GitHub, we will start to work with the Python file.
+### `FirstProgram.py`
+A guided introductory program that helps you practice:
+- user input
+- storing values in variables
+- simple calculations
+- printing output
+
+Instructions for this program are written **inside the file as comments**.
+
+---
+
+### `MadLib.py`
+A creative program where you:
+- ask the user for words (nouns, verbs, adjectives, etc.)
+- store the input
+- construct and display a short story
+
+Your program must:
+- ask for at least 6 words
+- clearly prompt the user
+- produce readable output
+- run without errors
+
+---
+
+## Required File Headers
+
+Both files must include completed header comments at the top:
+
+```python
+# Name:
+# Date:
+# Assignment: Lab 1
+# Purpose:
+
 
 ## FirstProgram.py
 The instructions for the program is in code. In python, a pound sign (#) is used to denote a comment. This is code that will not execute and is only there for the benefit of the programmer.
